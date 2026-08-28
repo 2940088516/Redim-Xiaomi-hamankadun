@@ -1,0 +1,43 @@
+# ============================================================
+# REDMI K90 Pro Max 音质优化 — System Properties
+# REDMI K90 Pro Max 音质优化 Ultra v1.9 · by 016.
+# ============================================================
+
+# ---------- 音量阶数：全部改为16阶（iOS标准） ----------
+ro.config.media_vol_steps=16
+ro.config.alarm_vol_steps=16
+ro.config.system_vol_steps=16
+ro.config.vc_call_vol_steps=16
+ro.config.ring_vol_steps=16
+ro.config.notification_vol_steps=16
+ro.config.tts_vol_steps=16
+ro.config.fm_vol_steps=16
+
+# ---------- 默认媒体音量 ----------
+ro.config.media_vol_default=10
+
+# ---------- 关闭安全音量弹窗 ----------
+ro.config.safe_media_volume_state=1
+ro.config.safe_media_volume=0
+
+# ---------- 关闭低功耗音量限制 ----------
+ro.config.low_volume=false
+
+# ---------- 全局音效启用 ----------
+ro.config.enable_audio_effects=1
+
+# ---------- 扬声器安全音量阶数 ----------
+ro.config.volume_steps_speaker_safe=16
+
+# ---------- 响度归一化 ----------
+ro.config.enable_loudness_normalizer=1
+
+# ---------- 按键跟随活跃流 ----------
+ro.config.volume_keys_follow_active=1
+
+# ---------- 扬声器保护（关闭） ----------
+ro.vendor.audio.speaker.protect=false
+ro.vendor.dolby.dap_bypassed_on_tiny_volume=false
+
+# ---------- 音量渐变 ----------
+ro.audio.volume_ramp_time_ms=60
