@@ -1,0 +1,2067 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- ═══════════════════════════════════════════════════
+     REDMI K90 音质优化  ·  by 016.
+     Build: 20260817  ·  Tuning: Ultra v1.6
+     This file is fingerprinted. Redistribution without
+     permission from the original author is prohibited.
+     Signature: k90-016-20260817-Remielle
+     ═══════════════════════════════════════════════════ -->
+
+<!-- REDMI K90 Audio Tuning · by 016. · Unauthorized redistribution prohibited -->
+  <format_version major="3" minor="7" maintenance="0"/>
+  <tool_version major="3" minor="16" maintenance="0"/>
+  <preset id="1" name="detailed" type="ieq">
+    <data>
+      <ieq-bands>
+        <band_ieq frequency="47" target="0"/>
+        <band_ieq frequency="141" target="0"/>
+        <band_ieq frequency="234" target="0"/>
+        <band_ieq frequency="328" target="0"/>
+        <band_ieq frequency="469" target="0"/>
+        <band_ieq frequency="656" target="0"/>
+        <band_ieq frequency="844" target="0"/>
+        <band_ieq frequency="1031" target="0"/>
+        <band_ieq frequency="1313" target="0"/>
+        <band_ieq frequency="1688" target="0"/>
+        <band_ieq frequency="2250" target="0"/>
+        <band_ieq frequency="3000" target="0"/>
+        <band_ieq frequency="3750" target="0"/>
+        <band_ieq frequency="4688" target="0"/>
+        <band_ieq frequency="5813" target="0"/>
+        <band_ieq frequency="7125" target="0"/>
+        <band_ieq frequency="9000" target="0"/>
+        <band_ieq frequency="11250" target="0"/>
+        <band_ieq frequency="13875" target="0"/>
+        <band_ieq frequency="19688" target="0"/>
+      </ieq-bands>
+    </data>
+  </preset>
+  <preset id="2" name="balanced" type="ieq">
+    <data>
+      <ieq-bands>
+        <band_ieq frequency="47" target="700"/>
+        <band_ieq frequency="141" target="800"/>
+        <band_ieq frequency="234" target="730"/>
+        <band_ieq frequency="328" target="630"/>
+        <band_ieq frequency="469" target="523"/>
+        <band_ieq frequency="656" target="468"/>
+        <band_ieq frequency="844" target="412"/>
+        <band_ieq frequency="1031" target="302"/>
+        <band_ieq frequency="1313" target="215"/>
+        <band_ieq frequency="1688" target="183"/>
+        <band_ieq frequency="2250" target="218"/>
+        <band_ieq frequency="3000" target="189"/>
+        <band_ieq frequency="3750" target="163"/>
+        <band_ieq frequency="4688" target="139"/>
+        <band_ieq frequency="5813" target="100"/>
+        <band_ieq frequency="7125" target="70"/>
+        <band_ieq frequency="9000" target="50"/>
+        <band_ieq frequency="11250" target="10"/>
+        <band_ieq frequency="13875" target="-60"/>
+        <band_ieq frequency="19688" target="-253"/
+      </ieq-bands>
+    </data>
+  </preset>
+  <preset id="3" name="warm" type="ieq">
+    <data>
+      <ieq-bands>
+        <band_ieq frequency="47" target="114"/>
+        <band_ieq frequency="141" target="146"/>
+        <band_ieq frequency="234" target="183"/>
+        <band_ieq frequency="328" target="169"/>
+        <band_ieq frequency="469" target="170"/>
+        <band_ieq frequency="656" target="128"/>
+        <band_ieq frequency="844" target="103"/>
+        <band_ieq frequency="1031" target="90"/>
+        <band_ieq frequency="1313" target="98"/>
+        <band_ieq frequency="1688" target="126"/>
+        <band_ieq frequency="2250" target="127"/>
+        <band_ieq frequency="3000" target="140"/>
+        <band_ieq frequency="3750" target="96"/>
+        <band_ieq frequency="4688" target="85"/>
+        <band_ieq frequency="5813" target="80"/>
+        <band_ieq frequency="7125" target="66"/>
+        <band_ieq frequency="9000" target="38"/>
+        <band_ieq frequency="11250" target="-32"/>
+        <band_ieq frequency="13875" target="-132"/>
+        <band_ieq frequency="19688" target="-275"/>
+      </ieq-bands>
+    </data>
+  </preset>
+  <preset id="0" type="geq">
+    <data>
+      <graphic-equalizer-bands>
+        <band_geq frequency="47" gain="0"/>
+        <band_geq frequency="141" gain="0"/>
+        <band_geq frequency="234" gain="0"/>
+        <band_geq frequency="328" gain="0"/>
+        <band_geq frequency="469" gain="0"/>
+        <band_geq frequency="656" gain="0"/>
+        <band_geq frequency="844" gain="0"/>
+        <band_geq frequency="1031" gain="0"/>
+        <band_geq frequency="1313" gain="0"/>
+        <band_geq frequency="1688" gain="0"/>
+        <band_geq frequency="2250" gain="0"/>
+        <band_geq frequency="3000" gain="0"/>
+        <band_geq frequency="3750" gain="0"/>
+        <band_geq frequency="4688" gain="0"/>
+        <band_geq frequency="5813" gain="0"/>
+        <band_geq frequency="7125" gain="0"/>
+        <band_geq frequency="9000" gain="0"/>
+        <band_geq frequency="11250" gain="0"/>
+        <band_geq frequency="13875" gain="0"/>
+        <band_geq frequency="19688" gain="0"/>
+      </graphic-equalizer-bands>
+    </data>
+  </preset>
+  <preset id="1" type="geq">
+    <data>
+      <graphic-equalizer-bands>
+        <band_geq frequency="47" gain="0"/>
+        <band_geq frequency="141" gain="0"/>
+        <band_geq frequency="234" gain="0"/>
+        <band_geq frequency="328" gain="0"/>
+        <band_geq frequency="469" gain="0"/>
+        <band_geq frequency="656" gain="0"/>
+        <band_geq frequency="844" gain="0"/>
+        <band_geq frequency="1031" gain="0"/>
+        <band_geq frequency="1313" gain="0"/>
+        <band_geq frequency="1688" gain="0"/>
+        <band_geq frequency="2250" gain="0"/>
+        <band_geq frequency="3000" gain="0"/>
+        <band_geq frequency="3750" gain="0"/>
+        <band_geq frequency="4688" gain="0"/>
+        <band_geq frequency="5813" gain="0"/>
+        <band_geq frequency="7125" gain="0"/>
+        <band_geq frequency="9000" gain="0"/>
+        <band_geq frequency="11250" gain="0"/>
+        <band_geq frequency="13875" gain="0"/>
+        <band_geq frequency="19688" gain="0"/>
+      </graphic-equalizer-bands>
+    </data>
+  </preset>
+  <preset id="2" type="geq">
+    <data>
+      <graphic-equalizer-bands>
+         <band_geq frequency="47" gain="730"/>
+        <band_geq frequency="141" gain="750"/>
+        <band_geq frequency="234" gain="710"/>
+        <band_geq frequency="328" gain="630"/>
+        <band_geq frequency="469" gain="520"/>
+        <band_geq frequency="656" gain="410"/>
+        <band_geq frequency="844" gain="0"/>
+        <band_geq frequency="1031" gain="-100"/>
+        <band_geq frequency="1313" gain="310"/>
+        <band_geq frequency="1688" gain="350"/>
+        <band_geq frequency="2250" gain="420"/>
+        <band_geq frequency="3000" gain="400"/>
+        <band_geq frequency="3750" gain="350"/>
+        <band_geq frequency="4688" gain="150"/>
+        <band_geq frequency="5813" gain="100"/>
+        <band_geq frequency="7125" gain="150"/>
+        <band_geq frequency="9000" gain="100"/>
+        <band_geq frequency="11250" gain="50"/>
+        <band_geq frequency="13875" gain="10"/>
+        <band_geq frequency="19688" gain="0"/
+      </graphic-equalizer-bands>
+    </data>
+  </preset>
+  <preset id="3" type="geq">
+    <data>
+      <graphic-equalizer-bands>
+        <band_geq frequency="47" gain="0"/>
+        <band_geq frequency="141" gain="0"/>
+        <band_geq frequency="234" gain="0"/>
+        <band_geq frequency="328" gain="0"/>
+        <band_geq frequency="469" gain="0"/>
+        <band_geq frequency="656" gain="0"/>
+        <band_geq frequency="844" gain="0"/>
+        <band_geq frequency="1031" gain="0"/>
+        <band_geq frequency="1313" gain="0"/>
+        <band_geq frequency="1688" gain="0"/>
+        <band_geq frequency="2250" gain="0"/>
+        <band_geq frequency="3000" gain="0"/>
+        <band_geq frequency="3750" gain="0"/>
+        <band_geq frequency="4688" gain="0"/>
+        <band_geq frequency="5813" gain="0"/>
+        <band_geq frequency="7125" gain="0"/>
+        <band_geq frequency="9000" gain="0"/>
+        <band_geq frequency="11250" gain="0"/>
+        <band_geq frequency="13875" gain="0"/>
+        <band_geq frequency="19688" gain="0"/>
+      </graphic-equalizer-bands>
+    </data>
+  </preset>
+  <preset id="4" type="geq">
+    <data>
+      <graphic-equalizer-bands>
+        <band_geq frequency="47" gain="0"/>
+        <band_geq frequency="141" gain="0"/>
+        <band_geq frequency="234" gain="0"/>
+        <band_geq frequency="328" gain="0"/>
+        <band_geq frequency="469" gain="0"/>
+        <band_geq frequency="656" gain="0"/>
+        <band_geq frequency="844" gain="0"/>
+        <band_geq frequency="1031" gain="0"/>
+        <band_geq frequency="1313" gain="0"/>
+        <band_geq frequency="1688" gain="0"/>
+        <band_geq frequency="2250" gain="0"/>
+        <band_geq frequency="3000" gain="0"/>
+        <band_geq frequency="3750" gain="0"/>
+        <band_geq frequency="4688" gain="0"/>
+        <band_geq frequency="5813" gain="0"/>
+        <band_geq frequency="7125" gain="0"/>
+        <band_geq frequency="9000" gain="0"/>
+        <band_geq frequency="11250" gain="0"/>
+        <band_geq frequency="13875" gain="0"/>
+        <band_geq frequency="19688" gain="0"/>
+      </graphic-equalizer-bands>
+    </data>
+  </preset>
+  <preset id="5" type="geq">
+    <data>
+      <graphic-equalizer-bands>
+        <band_geq frequency="47" gain="0"/>
+        <band_geq frequency="141" gain="0"/>
+        <band_geq frequency="234" gain="0"/>
+        <band_geq frequency="328" gain="0"/>
+        <band_geq frequency="469" gain="0"/>
+        <band_geq frequency="656" gain="0"/>
+        <band_geq frequency="844" gain="0"/>
+        <band_geq frequency="1031" gain="0"/>
+        <band_geq frequency="1313" gain="0"/>
+        <band_geq frequency="1688" gain="0"/>
+        <band_geq frequency="2250" gain="0"/>
+        <band_geq frequency="3000" gain="0"/>
+        <band_geq frequency="3750" gain="0"/>
+        <band_geq frequency="4688" gain="0"/>
+        <band_geq frequency="5813" gain="0"/>
+        <band_geq frequency="7125" gain="0"/>
+        <band_geq frequency="9000" gain="0"/>
+        <band_geq frequency="11250" gain="0"/>
+        <band_geq frequency="13875" gain="0"/>
+        <band_geq frequency="19688" gain="0"/>
+      </graphic-equalizer-bands>
+    </data>
+  </preset>
+  <preset id="6" type="geq">
+    <data>
+      <graphic-equalizer-bands>
+        <band_geq frequency="47" gain="0"/>
+        <band_geq frequency="141" gain="0"/>
+        <band_geq frequency="234" gain="0"/>
+        <band_geq frequency="328" gain="0"/>
+        <band_geq frequency="469" gain="0"/>
+        <band_geq frequency="656" gain="0"/>
+        <band_geq frequency="844" gain="0"/>
+        <band_geq frequency="1031" gain="0"/>
+        <band_geq frequency="1313" gain="0"/>
+        <band_geq frequency="1688" gain="0"/>
+        <band_geq frequency="2250" gain="0"/>
+        <band_geq frequency="3000" gain="0"/>
+        <band_geq frequency="3750" gain="0"/>
+        <band_geq frequency="4688" gain="0"/>
+        <band_geq frequency="5813" gain="0"/>
+        <band_geq frequency="7125" gain="0"/>
+        <band_geq frequency="9000" gain="0"/>
+        <band_geq frequency="11250" gain="0"/>
+        <band_geq frequency="13875" gain="0"/>
+        <band_geq frequency="19688" gain="0"/>
+      </graphic-equalizer-bands>
+    </data>
+  </preset>
+  <preset id="7" type="geq">
+    <data>
+      <graphic-equalizer-bands>
+        <band_geq frequency="47" gain="0"/>
+        <band_geq frequency="141" gain="0"/>
+        <band_geq frequency="234" gain="0"/>
+        <band_geq frequency="328" gain="0"/>
+        <band_geq frequency="469" gain="0"/>
+        <band_geq frequency="656" gain="0"/>
+        <band_geq frequency="844" gain="0"/>
+        <band_geq frequency="1031" gain="0"/>
+        <band_geq frequency="1313" gain="0"/>
+        <band_geq frequency="1688" gain="0"/>
+        <band_geq frequency="2250" gain="0"/>
+        <band_geq frequency="3000" gain="0"/>
+        <band_geq frequency="3750" gain="0"/>
+        <band_geq frequency="4688" gain="0"/>
+        <band_geq frequency="5813" gain="0"/>
+        <band_geq frequency="7125" gain="0"/>
+        <band_geq frequency="9000" gain="0"/>
+        <band_geq frequency="11250" gain="0"/>
+        <band_geq frequency="13875" gain="0"/>
+        <band_geq frequency="19688" gain="0"/>
+      </graphic-equalizer-bands>
+    </data>
+  </preset>
+  <profile id="0" name="Default" group="default">
+    <data>
+      <mi-dv-leveler-steering-enable value="false"/>
+      <mi-ieq-steering-enable value="false"/>
+      <mi-surround-compressor-steering-enable value="true"/>
+      <mi-adaptive-virtualizer-steering-enable value="false"/>
+      <volume-modeler-enable value="true"/>
+      <drc-metadata/>
+      <reverb-suppression-enable value="false"/>
+      <reverb-suppression-amount value="0"/>
+      <headphone-virtualizer-mode value="2"/>
+      <advanced-headphone-virtualizer-rendering-config value="103,32603,9339,2786,1,3,1,1"/>
+      <surround-decoder-diffuse-relocating-to-front-amount value="1024"/>
+      <advanced-headphone-virtualizer-lr-angle value="45"/>
+      <endpoint_type id="speaker">
+        <include ieq_preset="1"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="0"/>
+        <calibration-boost value="6"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="5"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="true"/>
+        <peak-value value="512"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="105"/>
+        <volmax-boost value="0"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="false"/>
+        <volume-leveler-amount value="-1"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="2"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="3"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="84"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="24"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="other">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="52"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+    </data>
+  </profile>
+  <profile id="1" name="Bass" group="default">
+    <data>
+      <mi-dv-leveler-steering-enable value="false"/>
+      <mi-ieq-steering-enable value="false"/>
+      <mi-surround-compressor-steering-enable value="true"/>
+      <mi-adaptive-virtualizer-steering-enable value="true"/>
+      <volume-modeler-enable value="false"/>
+      <drc-metadata/>
+      <reverb-suppression-enable value="false"/>
+      <reverb-suppression-amount value="0"/>
+      <headphone-virtualizer-mode value="2"/>
+      <advanced-headphone-virtualizer-rendering-config value="103,32603,11305,5079,0,3,3,3"/>
+      <surround-decoder-diffuse-relocating-to-front-amount value="0"/>
+      <advanced-headphone-virtualizer-lr-angle value="45"/>
+      <endpoint_type id="speaker">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="9"/>
+        <calibration-boost value="6"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="3"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="105"/>
+        <volmax-boost value="0"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="false"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="7"/>
+        <calibration-boost value="2"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="3"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="16"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="24"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="other">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="52"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+    </data>
+  </profile>
+  <profile id="2" name="Loudness" group="default">
+    <data>
+      <mi-dv-leveler-steering-enable value="false"/>
+      <mi-ieq-steering-enable value="false"/>
+      <mi-surround-compressor-steering-enable value="true"/>
+      <mi-adaptive-virtualizer-steering-enable value="true"/>
+      <volume-modeler-enable value="false"/>
+      <drc-metadata/>
+      <reverb-suppression-enable value="false"/>
+      <reverb-suppression-amount value="0"/>
+      <headphone-virtualizer-mode value="2"/>
+      <advanced-headphone-virtualizer-rendering-config value="103,32603,11305,5079,0,3,3,3"/>
+      <surround-decoder-diffuse-relocating-to-front-amount value="0"/>
+      <advanced-headphone-virtualizer-lr-angle value="45"/>
+      <endpoint_type id="speaker">
+        <include ieq_preset="3"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="9"/>
+        <calibration-boost value="6"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="105"/>
+        <volmax-boost value="96"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <include ieq_preset="3"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="9"/>
+        <calibration-boost value="2"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="24"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="24"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="other">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="52"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+    </data>
+  </profile>
+  <profile id="3" name="Voice" group="default">
+    <data>
+      <mi-dv-leveler-steering-enable value="false"/>
+      <mi-ieq-steering-enable value="false"/>
+      <mi-surround-compressor-steering-enable value="false"/>
+      <mi-adaptive-virtualizer-steering-enable value="false"/>
+      <volume-modeler-enable value="false"/>
+      <drc-metadata/>
+      <reverb-suppression-enable value="false"/>
+      <reverb-suppression-amount value="0"/>
+      <headphone-virtualizer-mode value="2"/>
+      <advanced-headphone-virtualizer-rendering-config value="35,32603,32603,32603,0,3,3,3"/>
+      <surround-decoder-diffuse-relocating-to-front-amount value="0"/>
+      <advanced-headphone-virtualizer-lr-angle value="45"/>
+      <endpoint_type id="speaker">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="6"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="5"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="105"/>
+        <volmax-boost value="96"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="2"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="8"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="32"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="other">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="8"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="52"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+    </data>
+  </profile>
+  <profile id="4" name="long_video" group="default">
+    <data>
+      <mi-dv-leveler-steering-enable value="false"/>
+      <mi-ieq-steering-enable value="false"/>
+      <mi-surround-compressor-steering-enable value="false"/>
+      <mi-adaptive-virtualizer-steering-enable value="false"/>
+      <volume-modeler-enable value="false"/>
+      <drc-metadata/>
+      <reverb-suppression-enable value="false"/>
+      <reverb-suppression-amount value="0"/>
+      <headphone-virtualizer-mode value="2"/>
+      <advanced-headphone-virtualizer-rendering-config value="103,32603,11305,5079,0,3,3,3"/>
+      <surround-decoder-diffuse-relocating-to-front-amount value="0"/>
+      <advanced-headphone-virtualizer-lr-angle value="45"/>
+      <endpoint_type id="speaker">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="6"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="2"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="105"/>
+        <volmax-boost value="96"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="true"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="2"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="32"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="other">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="52"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+    </data>
+  </profile>
+  <profile id="5" name="short_video" group="default">
+    <data>
+      <mi-dv-leveler-steering-enable value="false"/>
+      <mi-ieq-steering-enable value="false"/>
+      <mi-surround-compressor-steering-enable value="false"/>
+      <mi-adaptive-virtualizer-steering-enable value="false"/>
+      <volume-modeler-enable value="false"/>
+      <drc-metadata/>
+      <reverb-suppression-enable value="false"/>
+      <reverb-suppression-amount value="0"/>
+      <headphone-virtualizer-mode value="2"/>
+      <advanced-headphone-virtualizer-rendering-config value="103,32603,11305,5079,0,3,3,3"/>
+      <surround-decoder-diffuse-relocating-to-front-amount value="0"/>
+      <advanced-headphone-virtualizer-lr-angle value="45"/>
+      <endpoint_type id="speaker">
+        <include ieq_preset="3"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="8"/>
+        <calibration-boost value="6"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="5"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="105"/>
+        <volmax-boost value="0"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="2"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="32"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="other">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="52"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+    </data>
+  </profile>
+  <profile id="6" name="navigation" group="default">
+    <data>
+      <mi-dv-leveler-steering-enable value="false"/>
+      <mi-ieq-steering-enable value="false"/>
+      <mi-surround-compressor-steering-enable value="false"/>
+      <mi-adaptive-virtualizer-steering-enable value="false"/>
+      <volume-modeler-enable value="false"/>
+      <drc-metadata/>
+      <reverb-suppression-enable value="false"/>
+      <reverb-suppression-amount value="0"/>
+      <headphone-virtualizer-mode value="2"/>
+      <advanced-headphone-virtualizer-rendering-config value="103,32603,11305,5079,0,3,3,3"/>
+      <surround-decoder-diffuse-relocating-to-front-amount value="0"/>
+      <advanced-headphone-virtualizer-lr-angle value="45"/>
+      <endpoint_type id="speaker">
+        <include ieq_preset="3"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="8"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="6"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="105"/>
+        <volmax-boost value="96"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="1"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="2"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="32"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="other">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="false"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="52"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+    </data>
+  </profile>
+  <profile id="7" name="SpatialAudio" group="default">
+    <data>
+      <mi-dv-leveler-steering-enable value="false"/>
+      <mi-ieq-steering-enable value="false"/>
+      <mi-surround-compressor-steering-enable value="true"/>
+      <mi-adaptive-virtualizer-steering-enable value="true"/>
+      <volume-modeler-enable value="false"/>
+      <drc-metadata/>
+      <reverb-suppression-enable value="false"/>
+      <reverb-suppression-amount value="0"/>
+      <headphone-virtualizer-mode value="2"/>
+      <advanced-headphone-virtualizer-rendering-config value="120,32603,9011,3113,1,3,1,1"/>
+      <surround-decoder-diffuse-relocating-to-front-amount value="0"/>
+      <advanced-headphone-virtualizer-lr-angle value="45"/>
+      <endpoint_type id="speaker">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="6"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="5"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="105"/>
+        <volmax-boost value="96"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="true"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="headphone">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="2"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="false"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="28"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="true"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+      <endpoint_type id="other">
+        <include ieq_preset="2"/>
+        <ieq-enable value="false"/>
+        <ieq-amount value="6"/>
+        <calibration-boost value="5"/>
+        <mi-dialog-enhancer-steering-enable value="true"/>
+        <dialog-enhancer-enable value="true"/>
+        <dialog-enhancer-amount value="4"/>
+        <dialog-enhancer-ducking value="0"/>
+        <mi-virtualizer-binaural-steering-enable value="false"/>
+        <peak-value value="256"/>
+        <surround-decoder-enable value="true"/>
+        <surround-boost value="112"/>
+        <volmax-boost value="52"/>
+        <hearing-protection-enable value="false"/>
+        <hearing-protection-rms-averaging-time-win-len value="6"/>
+        <hearing-protection-rms-attenuation-target value="-256"/>
+        <hearing-protection-attenuation-attack-time value="900"/>
+        <hearing-protection-attenuation-release-time value="1600"/>
+        <volume-leveler-enable value="true"/>
+        <volume-leveler-amount value="0"/>
+        <volume-leveler-in-target value="-256"/>
+        <volume-leveler-out-target value="-256"/>
+        <graphic-equalizer-enable value="true"/>
+        <virtualizer-enable value="false"/>
+        <virtualizer-start-band value="0"/>
+        <headphone-virtualizer-steerer-source-distance value="4"/>
+        <bass-enhancer-enable value="false"/>
+        <virtual-bass-process-enable value="false"/>
+      </endpoint_type>
+    </data>
+  </profile>
+  <tuning name="speaker_landscape_large" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
+    <device_id id="large_mode_speaker" endpoint_port="internal_speaker"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="318" gain_right="318"/>
+        <band_optimizer frequency="141" gain_left="395" gain_right="395"/>
+        <band_optimizer frequency="234" gain_left="308" gain_right="308"/>
+        <band_optimizer frequency="328" gain_left="270" gain_right="270"/>
+        <band_optimizer frequency="469" gain_left="157" gain_right="157"/>
+        <band_optimizer frequency="656" gain_left="42" gain_right="42"/>
+        <band_optimizer frequency="844" gain_left="-43" gain_right="-43"/>
+        <band_optimizer frequency="1031" gain_left="-85" gain_right="-85"/>
+        <band_optimizer frequency="1313" gain_left="-64" gain_right="-64"/>
+        <band_optimizer frequency="1688" gain_left="-32" gain_right="-32"/>
+        <band_optimizer frequency="2250" gain_left="-17" gain_right="-17"/>
+        <band_optimizer frequency="3000" gain_left="-7" gain_right="-7"/>
+        <band_optimizer frequency="3750" gain_left="-8" gain_right="-8"/>
+        <band_optimizer frequency="4688" gain_left="-4" gain_right="-4"/>
+        <band_optimizer frequency="5813" gain_left="27" gain_right="27"/>
+        <band_optimizer frequency="7125" gain_left="12" gain_right="12"/>
+        <band_optimizer frequency="9000" gain_left="9" gain_right="9"/>
+        <band_optimizer frequency="11250" gain_left="13" gain_right="13"/>
+        <band_optimizer frequency="13875" gain_left="22" gain_right="22"/>
+        <band_optimizer frequency="19688" gain_left="6" gain_right="6"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="-54" isolated_band="true"/>
+        <band_regulator frequency="141" threshold_low="-192" threshold_high="-61" isolated_band="true"/>
+        <band_regulator frequency="234" threshold_low="-401" threshold_high="-171" isolated_band="true"/>
+        <band_regulator frequency="328" threshold_low="-500" threshold_high="-245" isolated_band="true"/>
+        <band_regulator frequency="469" threshold_low="-545" threshold_high="-255" isolated_band="true"/>
+        <band_regulator frequency="656" threshold_low="-533" threshold_high="-360" isolated_band="true"/>
+        <band_regulator frequency="844" threshold_low="-426" threshold_high="-249" isolated_band="true"/>
+        <band_regulator frequency="1031" threshold_low="-375" threshold_high="-230" isolated_band="true"/>
+        <band_regulator frequency="1313" threshold_low="-410" threshold_high="-300" isolated_band="true"/>
+        <band_regulator frequency="1688" threshold_low="-349" threshold_high="-221" isolated_band="true"/>
+        <band_regulator frequency="2250" threshold_low="-277" threshold_high="-122" isolated_band="true"/>
+        <band_regulator frequency="3000" threshold_low="-247" threshold_high="-58" isolated_band="true"/>
+        <band_regulator frequency="3750" threshold_low="-247" threshold_high="-55" isolated_band="true"/>
+        <band_regulator frequency="4688" threshold_low="-238" threshold_high="-48" isolated_band="true"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-30" isolated_band="true"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-50" isolated_band="true"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-50" isolated_band="true"/>
+        <band_regulator frequency="11250" threshold_low="-422" threshold_high="-67" isolated_band="true"/>
+        <band_regulator frequency="13875" threshold_low="-494" threshold_high="-58" isolated_band="true"/>
+        <band_regulator frequency="19688" threshold_low="-533" threshold_high="-34" isolated_band="true"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="-400,-400,-400,-371,-349,-320"/>
+      <regulator-sibilance-suppress-amounts-right value="-400,-400,-400,-371,-349,-320"/>
+      <bass-enhancer-boost value="96"/>
+      <bass-enhancer-cutoff-frequency value="150"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,32767,0,32767,0,32767,0,29490,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,29490,0,26213,0,26213,0,26213,0,26213,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,27524,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,23592,0,17694,0,17694,0,20970,0,26213,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix>
+          <element value="0,2,16384,16384"/>
+          <element value="1,4,16384,0,0,16384"/>
+          <element value="3,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="5,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="10,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="11,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="6,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+        </mix_matrix>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="192,192,96,96"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="52"/>
+      <virtual-bass-slope-gain value="2"/>
+      <virtual-bass-mix-freqs frequency_low="80" frequency_high="150"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-harmgains value="16,48,32,48"/>
+      <virtual-bass-hybgains value="0,0,0,0,0,0"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="12"/>
+      <virtual-bass-mix-frequency value="100,1500"/>
+      <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,-640,96,-320,-320,0,-144,60,50,-80,1,-640,192,-320,-320,0,-144,60,50,-32,1,-640,144,-368,-368,0,-144,60,50,-80,0,-1600,0,-1120,-400,0,-192,60,50,0,0,-1600,0,-1120,-400,-240,-144,60,50,0,0,-1600,0,-1120,-400,-240,-320,1,200,0,0,-1600,0,-1120,-400,-240,-320,1,200,0,0,-480,0,-480,-400,-240,0,5,10,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="0"/>
+      <volume-leveler-compressor-enable value="false"/>
+      <bass-extraction-enable value="true"/>
+      <audio-optimizer-enable value="true"/>
+      <complex-equalizer-enable value="true"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="true"/>
+      <regulator-sibilance-suppress-enable value="true"/>
+      <bass-mbdrc-enable value="true"/>
+    </data>
+  </tuning>
+  <tuning name="speaker_landscape_medium" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
+    <device_id id="default_internal_speaker" endpoint_port="internal_speaker"/>
+    <device_id id="speaker_landscape" endpoint_port="internal_speaker"/>
+    <device_id id="speaker_portrait" endpoint_port="internal_speaker"/>
+    <device_id id="medium_mode_speaker" endpoint_port="internal_speaker"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="360" gain_right="360"/>
+        <band_optimizer frequency="141" gain_left="405" gain_right="405"/>
+        <band_optimizer frequency="234" gain_left="394" gain_right="394"/>
+        <band_optimizer frequency="328" gain_left="286" gain_right="286"/>
+        <band_optimizer frequency="469" gain_left="168" gain_right="168"/>
+        <band_optimizer frequency="656" gain_left="66" gain_right="66"/>
+        <band_optimizer frequency="844" gain_left="-26" gain_right="-26"/>
+        <band_optimizer frequency="1031" gain_left="6" gain_right="6"/>
+        <band_optimizer frequency="1313" gain_left="-4" gain_right="-4"/>
+        <band_optimizer frequency="1688" gain_left="-2" gain_right="-2"/>
+        <band_optimizer frequency="2250" gain_left="-8" gain_right="-8"/>
+        <band_optimizer frequency="3000" gain_left="-12" gain_right="-12"/>
+        <band_optimizer frequency="3750" gain_left="-12" gain_right="-12"/>
+        <band_optimizer frequency="4688" gain_left="-4" gain_right="-4"/>
+        <band_optimizer frequency="5813" gain_left="30" gain_right="30"/>
+        <band_optimizer frequency="7125" gain_left="24" gain_right="24"/>
+        <band_optimizer frequency="9000" gain_left="32" gain_right="32"/>
+        <band_optimizer frequency="11250" gain_left="14" gain_right="14"/>
+        <band_optimizer frequency="13875" gain_left="24" gain_right="24"/>
+        <band_optimizer frequency="19688" gain_left="18" gain_right="18"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="-32" isolated_band="true"/>
+        <band_regulator frequency="141" threshold_low="-192" threshold_high="-41" isolated_band="true"/>
+        <band_regulator frequency="234" threshold_low="-401" threshold_high="-155" isolated_band="true"/>
+        <band_regulator frequency="328" threshold_low="-500" threshold_high="-239" isolated_band="true"/>
+        <band_regulator frequency="469" threshold_low="-545" threshold_high="-256" isolated_band="true"/>
+        <band_regulator frequency="656" threshold_low="-533" threshold_high="-364" isolated_band="true"/>
+        <band_regulator frequency="844" threshold_low="-426" threshold_high="-252" isolated_band="true"/>
+        <band_regulator frequency="1031" threshold_low="-375" threshold_high="-229" isolated_band="true"/>
+        <band_regulator frequency="1313" threshold_low="-410" threshold_high="-300" isolated_band="true"/>
+        <band_regulator frequency="1688" threshold_low="-349" threshold_high="-221" isolated_band="true"/>
+        <band_regulator frequency="2250" threshold_low="-277" threshold_high="-123" isolated_band="true"/>
+        <band_regulator frequency="3000" threshold_low="-247" threshold_high="-63" isolated_band="true"/>
+        <band_regulator frequency="3750" threshold_low="-247" threshold_high="-55" isolated_band="true"/>
+        <band_regulator frequency="4688" threshold_low="-238" threshold_high="-48" isolated_band="true"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-30" isolated_band="true"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-50" isolated_band="true"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-50" isolated_band="true"/>
+        <band_regulator frequency="11250" threshold_low="-422" threshold_high="-66" isolated_band="true"/>
+        <band_regulator frequency="13875" threshold_low="-494" threshold_high="-56" isolated_band="true"/>
+        <band_regulator frequency="19688" threshold_low="-533" threshold_high="-72" isolated_band="true"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="-400,-400,-400,-371,-349,-320"/>
+      <regulator-sibilance-suppress-amounts-right value="-400,-400,-400,-371,-349,-320"/>
+      <bass-enhancer-boost value="154"/>
+      <bass-enhancer-cutoff-frequency value="150"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,32767,0,32767,0,32767,0,29490,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,29490,0,26213,0,26213,0,26213,0,26213,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,27524,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,23592,0,17694,0,17694,0,20970,0,26213,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix>
+          <element value="0,2,16384,16384"/>
+          <element value="1,4,16384,0,0,16384"/>
+          <element value="3,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="5,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="10,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="11,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="6,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+        </mix_matrix>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="112,112,110,66"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="22"/>
+      <virtual-bass-slope-gain value="2"/>
+      <virtual-bass-mix-freqs frequency_low="80" frequency_high="150"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-harmgains value="16,48,32,48"/>
+      <virtual-bass-hybgains value="0,0,0,0,0,0"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="12"/>
+      <virtual-bass-mix-frequency value="100,1500"/>
+      <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,-640,16,-320,-320,0,-144,5,50,0,1,-640,176,-320,-320,0,-144,5,50,0,1,-640,160,-368,-368,0,-144,5,50,-32,1,-480,16,-320,-320,0,0,5,50,0,1,-480,16,-320,-320,0,0,5,50,0,1,-480,16,-320,-320,0,0,5,50,0,0,-1600,0,-1120,-400,-240,-320,1,200,0,0,-480,0,-480,-400,-240,0,5,10,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="0"/>
+      <volume-leveler-compressor-enable value="false"/>
+      <bass-extraction-enable value="true"/>
+      <audio-optimizer-enable value="true"/>
+      <complex-equalizer-enable value="true"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="true"/>
+      <regulator-sibilance-suppress-enable value="true"/>
+      <bass-mbdrc-enable value="false"/>
+    </data>
+  </tuning>
+  <tuning name="speaker_landscape_small" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
+    <device_id id="small_mode_speaker" endpoint_port="internal_speaker"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="583" gain_right="583"/>
+        <band_optimizer frequency="141" gain_left="518" gain_right="518"/>
+        <band_optimizer frequency="234" gain_left="480" gain_right="480"/>
+        <band_optimizer frequency="328" gain_left="368" gain_right="368"/>
+        <band_optimizer frequency="469" gain_left="216" gain_right="216"/>
+        <band_optimizer frequency="656" gain_left="133" gain_right="133"/>
+        <band_optimizer frequency="844" gain_left="23" gain_right="23"/>
+        <band_optimizer frequency="1031" gain_left="-0" gain_right="-0"/>
+        <band_optimizer frequency="1313" gain_left="-22" gain_right="-22"/>
+        <band_optimizer frequency="1688" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="2250" gain_left="-6" gain_right="-6"/>
+        <band_optimizer frequency="3000" gain_left="-8" gain_right="-8"/>
+        <band_optimizer frequency="3750" gain_left="-8" gain_right="-8"/>
+        <band_optimizer frequency="4688" gain_left="-2" gain_right="-2"/>
+        <band_optimizer frequency="5813" gain_left="10" gain_right="10"/>
+        <band_optimizer frequency="7125" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="9000" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="11250" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="13875" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="19688" gain_left="0" gain_right="0"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="-19" isolated_band="true"/>
+        <band_regulator frequency="141" threshold_low="-192" threshold_high="-28" isolated_band="true"/>
+        <band_regulator frequency="234" threshold_low="-401" threshold_high="-149" isolated_band="true"/>
+        <band_regulator frequency="328" threshold_low="-500" threshold_high="-237" isolated_band="true"/>
+        <band_regulator frequency="469" threshold_low="-545" threshold_high="-254" isolated_band="true"/>
+        <band_regulator frequency="656" threshold_low="-533" threshold_high="-361" isolated_band="true"/>
+        <band_regulator frequency="844" threshold_low="-426" threshold_high="-249" isolated_band="true"/>
+        <band_regulator frequency="1031" threshold_low="-375" threshold_high="-229" isolated_band="true"/>
+        <band_regulator frequency="1313" threshold_low="-410" threshold_high="-298" isolated_band="true"/>
+        <band_regulator frequency="1688" threshold_low="-349" threshold_high="-219" isolated_band="true"/>
+        <band_regulator frequency="2250" threshold_low="-277" threshold_high="-121" isolated_band="true"/>
+        <band_regulator frequency="3000" threshold_low="-247" threshold_high="-59" isolated_band="true"/>
+        <band_regulator frequency="3750" threshold_low="-247" threshold_high="-55" isolated_band="true"/>
+        <band_regulator frequency="4688" threshold_low="-238" threshold_high="-48" isolated_band="true"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="-30" isolated_band="true"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="-50" isolated_band="true"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="-50" isolated_band="true"/>
+        <band_regulator frequency="11250" threshold_low="-422" threshold_high="-66" isolated_band="true"/>
+        <band_regulator frequency="13875" threshold_low="-494" threshold_high="-54" isolated_band="true"/>
+        <band_regulator frequency="19688" threshold_low="-533" threshold_high="-70" isolated_band="true"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="-400,-400,-400,-371,-349,-320"/>
+      <regulator-sibilance-suppress-amounts-right value="-400,-400,-400,-371,-349,-320"/>
+      <bass-enhancer-boost value="96"/>
+      <bass-enhancer-cutoff-frequency value="150"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,32767,0,32767,0,32767,0,29490,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,29490,0,26213,0,26213,0,26213,0,26213,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,27524,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,23592,0,17694,0,17694,0,20970,0,26213,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix>
+          <element value="0,2,16384,16384"/>
+          <element value="1,4,16384,0,0,16384"/>
+          <element value="3,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="5,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="10,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="11,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="6,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+        </mix_matrix>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="112,112,96,96"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="52"/>
+      <virtual-bass-slope-gain value="2"/>
+      <virtual-bass-mix-freqs frequency_low="80" frequency_high="150"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-harmgains value="16,48,32,48"/>
+      <virtual-bass-hybgains value="0,0,0,0,0,0"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="12"/>
+      <virtual-bass-mix-frequency value="100,1500"/>
+      <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,-640,0,-320,-320,0,-144,5,50,-80,1,-640,144,-320,-320,0,-96,5,50,0,1,-640,176,-368,-368,0,-64,5,50,0,1,-480,48,-320,-320,0,0,5,50,0,1,-480,32,-320,-320,0,0,5,50,0,1,-480,32,-320,-320,0,0,5,50,0,1,-480,16,-320,-320,0,0,5,50,0,0,-480,0,-480,-400,-240,0,5,10,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="0"/>
+      <volume-leveler-compressor-enable value="true"/>
+      <bass-extraction-enable value="true"/>
+      <audio-optimizer-enable value="true"/>
+      <complex-equalizer-enable value="true"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="true"/>
+      <regulator-sibilance-suppress-enable value="true"/>
+      <bass-mbdrc-enable value="true"/>
+    </data>
+  </tuning>
+  <tuning name="speaker_bass" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
+    <device_id id="speaker_bass" endpoint_port="internal_speaker"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="-80" gain_right="-80"/>
+        <band_optimizer frequency="141" gain_left="156" gain_right="156"/>
+        <band_optimizer frequency="234" gain_left="138" gain_right="138"/>
+        <band_optimizer frequency="328" gain_left="15" gain_right="15"/>
+        <band_optimizer frequency="469" gain_left="-9" gain_right="-5"/>
+        <band_optimizer frequency="656" gain_left="-24" gain_right="-20"/>
+        <band_optimizer frequency="844" gain_left="-12" gain_right="-25"/>
+        <band_optimizer frequency="1031" gain_left="47" gain_right="4"/>
+        <band_optimizer frequency="1313" gain_left="72" gain_right="76"/>
+        <band_optimizer frequency="1688" gain_left="59" gain_right="56"/>
+        <band_optimizer frequency="2250" gain_left="36" gain_right="41"/>
+        <band_optimizer frequency="3000" gain_left="-20" gain_right="0"/>
+        <band_optimizer frequency="3750" gain_left="-84" gain_right="-40"/>
+        <band_optimizer frequency="4688" gain_left="-76" gain_right="-24"/>
+        <band_optimizer frequency="5813" gain_left="16" gain_right="16"/>
+        <band_optimizer frequency="7125" gain_left="40" gain_right="52"/>
+        <band_optimizer frequency="9000" gain_left="28" gain_right="60"/>
+        <band_optimizer frequency="11250" gain_left="8" gain_right="68"/>
+        <band_optimizer frequency="13875" gain_left="-24" gain_right="56"/>
+        <band_optimizer frequency="19688" gain_left="-20" gain_right="52"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="true"/>
+        <band_regulator frequency="141" threshold_low="-298" threshold_high="-106" isolated_band="true"/>
+        <band_regulator frequency="234" threshold_low="-401" threshold_high="-209" isolated_band="true"/>
+        <band_regulator frequency="328" threshold_low="-500" threshold_high="-308" isolated_band="true"/>
+        <band_regulator frequency="469" threshold_low="-545" threshold_high="-353" isolated_band="true"/>
+        <band_regulator frequency="656" threshold_low="-533" threshold_high="-341" isolated_band="true"/>
+        <band_regulator frequency="844" threshold_low="-426" threshold_high="-234" isolated_band="true"/>
+        <band_regulator frequency="1031" threshold_low="-375" threshold_high="-183" isolated_band="true"/>
+        <band_regulator frequency="1313" threshold_low="-410" threshold_high="-218" isolated_band="true"/>
+        <band_regulator frequency="1688" threshold_low="-349" threshold_high="-157" isolated_band="true"/>
+        <band_regulator frequency="2250" threshold_low="-277" threshold_high="-85" isolated_band="true"/>
+        <band_regulator frequency="3000" threshold_low="-247" threshold_high="-55" isolated_band="true"/>
+        <band_regulator frequency="3750" threshold_low="-247" threshold_high="-55" isolated_band="true"/>
+        <band_regulator frequency="4688" threshold_low="-238" threshold_high="-46" isolated_band="true"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="0" isolated_band="true"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="0" isolated_band="true"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="0" isolated_band="true"/>
+        <band_regulator frequency="11250" threshold_low="-422" threshold_high="-230" isolated_band="true"/>
+        <band_regulator frequency="13875" threshold_low="-494" threshold_high="-302" isolated_band="true"/>
+        <band_regulator frequency="19688" threshold_low="-533" threshold_high="-341" isolated_band="true"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="-400,-400,-400,-371,-349,-320"/>
+      <regulator-sibilance-suppress-amounts-right value="-400,-400,-400,-371,-349,-320"/>
+      <bass-enhancer-boost value="48"/>
+      <bass-enhancer-cutoff-frequency value="400"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,32767,0,32767,0,32767,0,29490,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,29490,0,26213,0,26213,0,26213,0,26213,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,27524,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,23592,0,17694,0,17694,0,20970,0,26213,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix>
+          <element value="0,2,16384,16384"/>
+          <element value="1,4,16384,0,0,16384"/>
+          <element value="3,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="5,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="10,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="11,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="6,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+        </mix_matrix>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="192,192,96,96"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-slope-gain value="0"/>
+      <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-harmgains value="-2080,48,48,48"/>
+      <virtual-bass-hybgains value="0,0,0,0,0,0"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="10"/>
+      <virtual-bass-mix-frequency value="100,1500"/>
+      <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,-640,96,-320,-320,0,-144,60,50,-80,1,-640,192,-320,-320,0,-144,60,50,-32,1,-640,144,-368,-368,0,-144,60,50,-80,0,-1600,0,-1120,-400,0,-192,60,50,0,0,-1600,0,-1120,-400,-240,-144,60,50,0,0,-1600,0,-1120,-400,-240,-320,1,200,0,0,-1600,0,-1120,-400,-240,-320,1,200,0,0,-480,0,-480,-400,-240,0,5,10,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="0"/>
+      <audio-optimizer-enable value="true"/>
+      <volume-leveler-compressor-enable value="false"/>
+      <bass-extraction-enable value="true"/>
+      <complex-equalizer-enable value="true"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="true"/>
+      <regulator-sibilance-suppress-enable value="true"/>
+      <bass-mbdrc-enable value="true"/>
+    </data>
+  </tuning>
+  <tuning name="speaker_loudness" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
+    <device_id id="speaker_loudness" endpoint_port="internal_speaker"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="-80" gain_right="-80"/>
+        <band_optimizer frequency="141" gain_left="140" gain_right="140"/>
+        <band_optimizer frequency="234" gain_left="122" gain_right="122"/>
+        <band_optimizer frequency="328" gain_left="47" gain_right="47"/>
+        <band_optimizer frequency="469" gain_left="23" gain_right="27"/>
+        <band_optimizer frequency="656" gain_left="8" gain_right="8"/>
+        <band_optimizer frequency="844" gain_left="36" gain_right="23"/>
+        <band_optimizer frequency="1031" gain_left="95" gain_right="52"/>
+        <band_optimizer frequency="1313" gain_left="104" gain_right="108"/>
+        <band_optimizer frequency="1688" gain_left="91" gain_right="88"/>
+        <band_optimizer frequency="2250" gain_left="52" gain_right="57"/>
+        <band_optimizer frequency="3000" gain_left="12" gain_right="32"/>
+        <band_optimizer frequency="3750" gain_left="-52" gain_right="-8"/>
+        <band_optimizer frequency="4688" gain_left="-28" gain_right="24"/>
+        <band_optimizer frequency="5813" gain_left="48" gain_right="48"/>
+        <band_optimizer frequency="7125" gain_left="72" gain_right="84"/>
+        <band_optimizer frequency="9000" gain_left="60" gain_right="92"/>
+        <band_optimizer frequency="11250" gain_left="24" gain_right="84"/>
+        <band_optimizer frequency="13875" gain_left="-40" gain_right="8"/>
+        <band_optimizer frequency="19688" gain_left="-116" gain_right="-44"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="true"/>
+        <band_regulator frequency="141" threshold_low="-298" threshold_high="-106" isolated_band="true"/>
+        <band_regulator frequency="234" threshold_low="-401" threshold_high="-209" isolated_band="true"/>
+        <band_regulator frequency="328" threshold_low="-500" threshold_high="-308" isolated_band="true"/>
+        <band_regulator frequency="469" threshold_low="-545" threshold_high="-353" isolated_band="true"/>
+        <band_regulator frequency="656" threshold_low="-533" threshold_high="-341" isolated_band="true"/>
+        <band_regulator frequency="844" threshold_low="-426" threshold_high="-234" isolated_band="true"/>
+        <band_regulator frequency="1031" threshold_low="-375" threshold_high="-183" isolated_band="true"/>
+        <band_regulator frequency="1313" threshold_low="-410" threshold_high="-218" isolated_band="true"/>
+        <band_regulator frequency="1688" threshold_low="-349" threshold_high="-157" isolated_band="true"/>
+        <band_regulator frequency="2250" threshold_low="-277" threshold_high="-85" isolated_band="true"/>
+        <band_regulator frequency="3000" threshold_low="-247" threshold_high="-55" isolated_band="true"/>
+        <band_regulator frequency="3750" threshold_low="-247" threshold_high="-55" isolated_band="true"/>
+        <band_regulator frequency="4688" threshold_low="-238" threshold_high="-46" isolated_band="true"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="0" isolated_band="true"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="0" isolated_band="true"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="0" isolated_band="true"/>
+        <band_regulator frequency="11250" threshold_low="-422" threshold_high="-230" isolated_band="true"/>
+        <band_regulator frequency="13875" threshold_low="-494" threshold_high="-302" isolated_band="true"/>
+        <band_regulator frequency="19688" threshold_low="-533" threshold_high="-341" isolated_band="true"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="-400,-400,-400,-371,-349,-320"/>
+      <regulator-sibilance-suppress-amounts-right value="-400,-400,-400,-371,-349,-320"/>
+      <bass-enhancer-boost value="48"/>
+      <bass-enhancer-cutoff-frequency value="400"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,32767,0,32767,0,32767,0,29490,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,29490,0,26213,0,26213,0,26213,0,26213,0,29490,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,27524,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,28179,0,23592,0,17694,0,17694,0,20970,0,26213,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix>
+          <element value="0,2,16384,16384"/>
+          <element value="1,4,16384,0,0,16384"/>
+          <element value="3,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="5,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="10,12,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384"/>
+          <element value="11,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+          <element value="6,16,16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+        </mix_matrix>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="192,192,96,96"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-slope-gain value="0"/>
+      <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-harmgains value="-2080,48,48,48"/>
+      <virtual-bass-hybgains value="0,0,0,0,0,0"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="10"/>
+      <virtual-bass-mix-frequency value="100,1500"/>
+      <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,-640,96,-320,-320,0,-144,5,50,-80,1,-640,112,-320,-320,0,-144,5,50,0,1,-640,144,-368,-368,0,-144,5,50,-80,0,-1600,0,-1120,-400,0,-192,60,50,0,0,-1600,0,-1120,-400,-240,-144,60,50,0,0,-1600,0,-1120,-400,-240,-320,1,200,0,0,-1600,0,-1120,-400,-240,-320,1,200,0,0,-480,0,-480,-400,-240,0,5,10,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="0"/>
+      <audio-optimizer-enable value="true"/>
+      <volume-leveler-compressor-enable value="false"/>
+      <bass-extraction-enable value="false"/>
+      <complex-equalizer-enable value="true"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="true"/>
+      <regulator-sibilance-suppress-enable value="true"/>
+      <bass-mbdrc-enable value="true"/>
+    </data>
+  </tuning>
+  <tuning name="super_default" endpoint_type="headphone" mono_device="false" tuned_rate="48000" orientation="2" output_channels="2">
+    <device_id id="default_headphone" endpoint_port="headphone"/>
+    <device_id id="default_bluetooth" endpoint_port="bluetooth"/>
+    <device_id id="default_usb" endpoint_port="usb"/>
+    <device_id id="headphone" endpoint_port="headphone"/>
+    <device_id id="super_default" endpoint_port="headphone"/>
+    <device_id id="super_default" endpoint_port="bluetooth"/>
+    <device_id id="super_default" endpoint_port="usb"/>
+    <device_id id="super_default" endpoint_port="hdmi"/>
+    <device_id id="super_default" endpoint_port="miracast"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="100" gain_right="100"/>
+        <band_optimizer frequency="141" gain_left="50" gain_right="50"/>
+        <band_optimizer frequency="234" gain_left="-30" gain_right="-30"/>
+        <band_optimizer frequency="328" gain_left="-10" gain_right="-10"/>
+        <band_optimizer frequency="469" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="656" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="844" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="1031" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="1313" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="1688" gain_left="30" gain_right="30"/>
+        <band_optimizer frequency="2250" gain_left="80" gain_right="80"/>
+        <band_optimizer frequency="3000" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="3750" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="4688" gain_left="30" gain_right="30"/>
+        <band_optimizer frequency="5813" gain_left="50" gain_right="50"/>
+        <band_optimizer frequency="7125" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="9000" gain_left="10" gain_right="10"/>
+        <band_optimizer frequency="11250" gain_left="30" gain_right="30"/>
+        <band_optimizer frequency="13875" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="19688" gain_left="0" gain_right="0"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="141" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="234" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="328" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="469" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="656" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="844" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
+      <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
+      <bass-enhancer-boost value="96"/>
+      <bass-enhancer-cutoff-frequency value="160"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix/>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="96,96,96,96"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-slope-gain value="0"/>
+      <virtual-bass-mix-freqs frequency_low="99" frequency_high="281"/>
+      <virtual-bass-src-freqs frequency_low="30" frequency_high="90"/>
+      <virtual-bass-subgains harmonic_2="-48" harmonic_3="-480" harmonic_4="-240"/>
+      <virtual-bass-harmgains value="-2080,48,48,48"/>
+      <virtual-bass-hybgains value="0,0,0,0,0,0"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="10"/>
+      <virtual-bass-mix-frequency value="100,1500"/>
+      <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="160"/>
+      <audio-optimizer-enable value="true"/>
+      <volume-leveler-compressor-enable value="false"/>
+      <bass-extraction-enable value="false"/>
+      <complex-equalizer-enable value="false"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="false"/>
+      <regulator-sibilance-suppress-enable value="false"/>
+      <bass-mbdrc-enable value="false"/>
+    </data>
+  </tuning>
+  <tuning name="super_bass" endpoint_type="headphone" mono_device="false" tuned_rate="48000" orientation="2" output_channels="2">
+    <device_id id="super_bass" endpoint_port="headphone"/>
+    <device_id id="super_bass" endpoint_port="bluetooth"/>
+    <device_id id="super_bass" endpoint_port="usb"/>
+    <device_id id="super_bass" endpoint_port="hdmi"/>
+    <device_id id="super_bass" endpoint_port="miracast"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="8" gain_right="8"/>
+        <band_optimizer frequency="141" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="234" gain_left="-32" gain_right="-32"/>
+        <band_optimizer frequency="328" gain_left="-19" gain_right="-19"/>
+        <band_optimizer frequency="469" gain_left="-8" gain_right="-8"/>
+        <band_optimizer frequency="656" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="844" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="1031" gain_left="-8" gain_right="-8"/>
+        <band_optimizer frequency="1313" gain_left="-16" gain_right="-16"/>
+        <band_optimizer frequency="1688" gain_left="-25" gain_right="-25"/>
+        <band_optimizer frequency="2250" gain_left="-40" gain_right="-40"/>
+        <band_optimizer frequency="3000" gain_left="-48" gain_right="-48"/>
+        <band_optimizer frequency="3750" gain_left="-48" gain_right="-48"/>
+        <band_optimizer frequency="4688" gain_left="-36" gain_right="-36"/>
+        <band_optimizer frequency="5813" gain_left="-32" gain_right="-32"/>
+        <band_optimizer frequency="7125" gain_left="-40" gain_right="-40"/>
+        <band_optimizer frequency="9000" gain_left="-56" gain_right="-56"/>
+        <band_optimizer frequency="11250" gain_left="-48" gain_right="-48"/>
+        <band_optimizer frequency="13875" gain_left="-48" gain_right="-48"/>
+        <band_optimizer frequency="19688" gain_left="-67" gain_right="-67"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="141" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="234" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="328" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="469" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="656" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="844" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
+      <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
+      <bass-enhancer-boost value="47"/>
+      <bass-enhancer-cutoff-frequency value="200"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix/>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="96,96,96,96"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-slope-gain value="0"/>
+      <virtual-bass-mix-freqs frequency_low="99" frequency_high="281"/>
+      <virtual-bass-src-freqs frequency_low="30" frequency_high="90"/>
+      <virtual-bass-subgains harmonic_2="-48" harmonic_3="-480" harmonic_4="-240"/>
+      <virtual-bass-harmgains value="-2080,32,48,48"/>
+      <virtual-bass-hybgains value="32,0,-32,-32,-32,-32"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="15"/>
+      <virtual-bass-mix-frequency value="50,600"/>
+      <virtual-bass-compressor-tuning value="1,48,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="160"/>
+      <audio-optimizer-enable value="true"/>
+      <volume-leveler-compressor-enable value="false"/>
+      <bass-extraction-enable value="true"/>
+      <complex-equalizer-enable value="false"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="false"/>
+      <regulator-sibilance-suppress-enable value="false"/>
+      <bass-mbdrc-enable value="false"/>
+    </data>
+  </tuning>
+  <tuning name="super_loudness" endpoint_type="headphone" mono_device="false" tuned_rate="48000" orientation="2" output_channels="2">
+    <device_id id="super_loudness" endpoint_port="headphone"/>
+    <device_id id="super_loudness" endpoint_port="bluetooth"/>
+    <device_id id="super_loudness" endpoint_port="usb"/>
+    <device_id id="super_loudness" endpoint_port="hdmi"/>
+    <device_id id="super_loudness" endpoint_port="miracast"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="-32" gain_right="-32"/>
+        <band_optimizer frequency="141" gain_left="-28" gain_right="-28"/>
+        <band_optimizer frequency="234" gain_left="-24" gain_right="-24"/>
+        <band_optimizer frequency="328" gain_left="-16" gain_right="-16"/>
+        <band_optimizer frequency="469" gain_left="-16" gain_right="-16"/>
+        <band_optimizer frequency="656" gain_left="-16" gain_right="-16"/>
+        <band_optimizer frequency="844" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="1031" gain_left="5" gain_right="5"/>
+        <band_optimizer frequency="1313" gain_left="8" gain_right="8"/>
+        <band_optimizer frequency="1688" gain_left="8" gain_right="8"/>
+        <band_optimizer frequency="2250" gain_left="8" gain_right="8"/>
+        <band_optimizer frequency="3000" gain_left="3" gain_right="3"/>
+        <band_optimizer frequency="3750" gain_left="-4" gain_right="-4"/>
+        <band_optimizer frequency="4688" gain_left="-16" gain_right="-16"/>
+        <band_optimizer frequency="5813" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="7125" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="9000" gain_left="-16" gain_right="-16"/>
+        <band_optimizer frequency="11250" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="13875" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="19688" gain_left="-16" gain_right="-16"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="141" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="234" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="328" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="469" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="656" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="844" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
+      <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
+      <bass-enhancer-boost value="96"/>
+      <bass-enhancer-cutoff-frequency value="160"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix/>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="96,96,96,96"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-slope-gain value="0"/>
+      <virtual-bass-mix-freqs frequency_low="99" frequency_high="281"/>
+      <virtual-bass-src-freqs frequency_low="30" frequency_high="90"/>
+      <virtual-bass-subgains harmonic_2="-48" harmonic_3="-480" harmonic_4="-240"/>
+      <virtual-bass-harmgains value="-2080,48,48,48"/>
+      <virtual-bass-hybgains value="0,0,0,0,0,0"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="10"/>
+      <virtual-bass-mix-frequency value="100,1500"/>
+      <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="160"/>
+      <audio-optimizer-enable value="true"/>
+      <volume-leveler-compressor-enable value="false"/>
+      <bass-extraction-enable value="false"/>
+      <complex-equalizer-enable value="false"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="false"/>
+      <regulator-sibilance-suppress-enable value="false"/>
+      <bass-mbdrc-enable value="false"/>
+    </data>
+  </tuning>
+  <tuning name="unknown" endpoint_type="other" mono_device="false" tuned_rate="48000" orientation="2" output_channels="2">
+    <device_id id="default_hdmi" endpoint_port="hdmi"/>
+    <device_id id="default_miracast" endpoint_port="miracast"/>
+    <data>
+      <audio-optimizer-bands>
+        <band_optimizer frequency="47" gain_left="100" gain_right="100"/>
+        <band_optimizer frequency="141" gain_left="30" gain_right="30"/>
+        <band_optimizer frequency="234" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="328" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="469" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="656" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="844" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="1031" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="1313" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="1688" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="2250" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="3000" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="3750" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="4688" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="5813" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="7125" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="9000" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="11250" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="13875" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="19688" gain_left="0" gain_right="0"/>
+      </audio-optimizer-bands>
+      <regulator-tuning>
+        <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="141" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="234" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="328" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="469" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="656" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="844" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1031" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1313" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="1688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="2250" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="3000" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="3750" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="4688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="5813" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="7125" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="9000" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="11250" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="13875" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+        <band_regulator frequency="19688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
+      </regulator-tuning>
+      <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
+      <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
+      <bass-enhancer-boost value="192"/>
+      <bass-enhancer-cutoff-frequency value="200"/>
+      <bass-enhancer-width value="16"/>
+      <bass-extraction-cutoff-frequency value="200"/>
+      <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <complex-equalizer-tuning-right value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
+      <height-filter-mode value="0"/>
+      <speaker-virtualizer-mode value="2"/>
+      <advanced-speaker-virtualizer-start-bin value="12"/>
+      <advanced-speaker-virtualizer-rendering-config value="78,32603,6718,5079,0,3,3,3"/>
+      <output-mode>
+        <mix_matrix/>
+      </output-mode>
+      <regulator-overdrive value="0"/>
+      <regulator-timbre-preservation value="12"/>
+      <regulator-stress-amount value="96,96,96,96"/>
+      <regulator-distortion-slope value="16"/>
+      <virtual-bass-mode value="3"/>
+      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-slope-gain value="0"/>
+      <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-harmgains value="-2080,48,48,48"/>
+      <virtual-bass-hybgains value="0,0,0,0,0,0"/>
+      <virtual-bass-rolloff-gain value="0"/>
+      <virtual-bass-blend-linear-gain value="10"/>
+      <virtual-bass-mix-frequency value="100,1500"/>
+      <virtual-bass-compressor-tuning value="0,0,-320,96,32,50,50"/>
+      <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0"/>
+      <virtualizer-front-speaker-angle value="10"/>
+      <virtualizer-height-speaker-angle value="10"/>
+      <virtualizer-surround-speaker-angle value="10"/>
+      <virtualizer-rear-surround-speaker-angle value="10"/>
+      <virtualizer-rear-height-speaker-angle value="10"/>
+      <volume-modeler-calibration value="0"/>
+      <audio-optimizer-enable value="false"/>
+      <volume-leveler-compressor-enable value="false"/>
+      <bass-extraction-enable value="false"/>
+      <complex-equalizer-enable value="false"/>
+      <regulator-enable value="true"/>
+      <regulator-speaker-dist-enable value="false"/>
+      <regulator-sibilance-suppress-enable value="false"/>
+      <bass-mbdrc-enable value="false"/>
+    </data>
+  </tuning>
+  <authorized_technologies sku_name="DAX3 Android" device="dax3_android" bundle="DAP MOBILE v2.2" format="2">
+    <global_setting virtual_bass_process="1"/>
+    <global_setting atmos_game_system_gain="1"/>
+  </authorized_technologies>
+</device_data>
